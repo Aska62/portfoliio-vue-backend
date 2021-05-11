@@ -22,8 +22,7 @@ var firebaseConfig = {
   projectId: process.env.NODE_APP_PROJECT_ID,
   storageBucket: process.env.NODE_APP_STORAGE_BUCKET,
   messagingSenderId: process.env.NODE_APP_MESSAGEING_SENDER_ID,
-  appId: process.env.NODE_APP_APP_ID,
-  measurementId: process.env.NODE_APP_MEASUREMENT_ID
+  appId: process.env.NODE_APP_APP_ID
 };
 
 firebase.initializeApp(firebaseConfig);
